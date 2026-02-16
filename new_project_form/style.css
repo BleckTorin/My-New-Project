@@ -4,22 +4,39 @@
     box-sizing: border-box;
 }
 
-form {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    border-radius: 5px;
-    background-color: #6e0b0b;
-    justify-content: center;
-    align-items: center;
+body {
+    background-image: url(/new_project_form/img/pexels-introspectivedsgn-7524996.jpg);
+    background-position: center; /*posiçao centralizada*/
+    background-size: cover; /*cobre toda a fundo*/
+    display: block;
+
 }
+
+.logo {
+    background-color: rgb(4, 129, 212);
+    text-align: center;
+    margin: 10px 5px;
+    justify-content: center;
+    padding: 10px; /*espaçamento interno do header*/
+    border: 2px solid black;
+}
+
+.main {
+    display: flex; 
+    min-height: 100vh; /*altura minima da fundo*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+}    
+    
 .container {
+    background: transparent;
+    background-color: rgba(0, 0, 255, 0.3); /* blue with 30% opacity */
     width: 300px;
     height: 400px;
     padding: 20px;
     border: 2px solid #000000;
     border-radius: 20px;
-    background-color: #859cce;
+    backdrop-filter: blur(9px);
 }
 
 h1 {
