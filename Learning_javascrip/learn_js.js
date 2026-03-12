@@ -41,5 +41,20 @@ console.log(z); // Exemplo de código JavaScript para mostrar a soma de x e y no
 
 /*- const: é usada para declarar constantes, ou seja, valores que não podem ser reatribuídos após serem definidos. Assim como o let, o const também tem um escopo de bloco.*/
 const pi = 3.14;
-console.log(pi); // Exemplo de código JavaScript para mostrar o valor de pi no console
+console.log(pi); // Exemplo de código JavaScript para mostrar o valor de pi no consol
 
+/*Operadores sao sinais que usamos: 
+a) Operador Aritimeticos (Matematicos)
+(+ - * / ) incremento ++ e decremento -- 
+*/
+var val1, val2, val3;
+val1 = 5;
+val2 = 2;
+total = val1 + val2;
+alert(total);
+
+//b) Operador Atribuição 
+//c) Operador Sequencia
+//d) Operador Coparação
+//e) Operador Condicional
+//f) Operador Logico (&& = e)(|| = ou) 
